@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/sky-mavis-test/static/css/main.57177001.css",
+    "main.js": "/sky-mavis-test/static/js/main.3b2d4f8a.js",
+    "static/js/787.988b606f.chunk.js": "/sky-mavis-test/static/js/787.988b606f.chunk.js",
+    "static/media/usd.svg": "/sky-mavis-test/static/media/usd.3bc05df641d382f28236af666697557b.svg",
+    "static/media/eur.svg": "/sky-mavis-test/static/media/eur.c25e0a3bf5e1a4263e7fb0427f2fac75.svg",
+    "static/media/yen.svg": "/sky-mavis-test/static/media/yen.1f27e6a5996b7d21820796c2c8bfd6ae.svg",
+    "static/media/copy.svg": "/sky-mavis-test/static/media/copy.1c6fbdb92b9bb10625aa2b0fd49db19c.svg",
+    "static/media/repeat.svg": "/sky-mavis-test/static/media/repeat.70b498526c85a71ea6b6ca3ff4838d05.svg",
+    "static/media/eye.svg": "/sky-mavis-test/static/media/eye.8e1f6401b6de59ddca1f8fad65f2e571.svg",
+    "static/media/credit-card-fill.svg": "/sky-mavis-test/static/media/credit-card-fill.05f0fc3462e428e049f011c13d7d03fe.svg",
+    "static/media/copy_white.svg": "/sky-mavis-test/static/media/copy_white.b3176543df101b9ca878.svg",
+    "static/media/close.svg": "/sky-mavis-test/static/media/close.f23a80398fa76fa42bc35128bcb3c447.svg",
+    "static/media/logo.svg": "/sky-mavis-test/static/media/logo.be3e0f069222b3bba736312f53361c17.svg",
+    "static/media/wallet.svg": "/sky-mavis-test/static/media/wallet.8281dc78a16c64517d19.svg",
+    "static/media/plane-fill.svg": "/sky-mavis-test/static/media/plane-fill.3ec62be3a174d2243165c6e792b03d34.svg",
+    "static/media/account.svg": "/sky-mavis-test/static/media/account.d4cf40cca3eecbf72ddfda590b6014b1.svg",
+    "index.html": "/sky-mavis-test/index.html",
+    "main.57177001.css.map": "/sky-mavis-test/static/css/main.57177001.css.map",
+    "main.3b2d4f8a.js.map": "/sky-mavis-test/static/js/main.3b2d4f8a.js.map",
+    "787.988b606f.chunk.js.map": "/sky-mavis-test/static/js/787.988b606f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57177001.css",
+    "static/js/main.3b2d4f8a.js"
+  ]
+}
