@@ -1,0 +1,36 @@
+@import 'src/assets/scss/stylesConfig.scss';
+
+.asset-item {
+    background: $information;
+    padding: 12px 20px 20px;
+    display: flex;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+
+    &--icon {
+        margin-right: 16px;
+    }
+
+    &--info {
+        p {
+            margin: 0
+        }
+
+        .dong {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    &--title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 4px;
+    }
+}

@@ -1,0 +1,59 @@
+@import 'src/assets/scss/stylesConfig.scss';
+
+.my-wallet {
+    background: $primary_background;
+    border-radius: 16px;
+    box-shadow: 0px 12px 20px -4px $grey;
+    margin: 20px 0 28px;
+    width: 100%;
+    padding: 18px 20px 20px;
+    position: relative;
+    color: $white;
+
+    &--info {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid $maya_blue;
+
+        span {
+            color: $light_sky_blue;
+            font-weight: 400;
+            padding-left: 8px
+        }
+    }
+
+    &--value {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 4px;
+    }
+
+    &--dong {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &:before {
+        position: absolute;
+        content: '';
+        background: url(../../../assets/Images/wallet.svg) no-repeat center;
+        width: 29px;
+        height: 40px;
+        bottom: 20px;
+        right: 26px;
+    }
+
+    &:after {
+        position: absolute;
+        content: '';
+        background: url(../../../assets/Images/copy_white.svg) no-repeat center;
+        width: 16px;
+        height: 16px;
+        top: 20px;
+        right: 20px;
+    }
+}

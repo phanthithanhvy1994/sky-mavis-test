@@ -1,0 +1,25 @@
+@import 'src/assets/scss/stylesConfig.scss';
+
+.popup {
+    height: auto;
+    top: 25%;
+
+    &--title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    &--content {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    &--close.ui.button {
+        width: 100%;
+        background: $dodger_blue;
+        color: $white
+    }
+}

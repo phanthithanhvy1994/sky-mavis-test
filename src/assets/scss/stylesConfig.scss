@@ -1,0 +1,82 @@
+$white: #fff;
+$blue: #1273EA;
+$light_blue: #1C94F4;
+$grey: #C5CEE0;
+$information: #F7F9FC;
+$solitude: #EDF1F7;
+$black_russian: #151A30;
+$maya_blue: #68B8F8;
+$light_sky_blue: #8DC9F9;
+$chambray: #57627B;
+$dodger_blue: #2F80ED;
+$primary_background: linear-gradient(256.28deg, $light_blue 0%, $blue 100%);
+
+.container {
+    max-width: 336px !important;
+    padding: 20px 0;
+}
+
+.primary-btn {
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    background: $primary_background !important;
+    border: none !important;
+    color: $white !important;
+}
+
+.second-btn {
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    background: $information !important;
+    border: none !important;
+    color: $blue !important;
+}
+
+.ui.input {
+    width: 100%;
+
+    &.primary-input {
+        >input {
+            width: 100%;
+            height: 40px;
+            border-radius: 8px !important;
+            border: 1px solid $grey !important;
+            outline: none;
+            padding: 10px 16px;
+        }
+    }
+
+    &.disabled {
+        >input {
+            background: $solitude;
+            color: #8F9BB3;
+        }
+    }
+}
+
+.ui.selection.dropdown.primary-input {
+    width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.ui.primary-input.action.input:not([class*="left action"])>input {
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    border-right-color: $grey !important;
+}

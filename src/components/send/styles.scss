@@ -1,0 +1,128 @@
+@import 'src/assets/scss/stylesConfig.scss';
+
+.send-page {
+    position: relative;
+
+    .hidden {
+        &:after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(21, 26, 48, 0.5)
+        }
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        height: 56px;
+        padding: 18px 0;
+    }
+
+    .form-asset {
+        label {
+            display: block;
+            float: left;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 16px;
+            color: $chambray;
+            padding-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        .helper {
+            float: right;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 16px;
+            color: $black_russian;
+            letter-spacing: 0.5px;
+        }
+
+        .input-item {
+            margin-bottom: 16px;
+        }
+
+        .err {
+            color: red;
+            font-size: 10px;
+        }
+
+        .ui.input {
+            >img {
+                position: absolute;
+                top: 8px;
+                left: 10px;
+                width: 24px;
+                height: 24px;
+                margin-right: 24px;
+            }
+
+            .button {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%
+            }
+        }
+
+        .wrapper-btn {
+            display: flex;
+
+            input {
+                width: 45%;
+                margin: 2.5%;
+            }
+        }
+    }
+
+    .asset,
+    .popup {
+        position: absolute;
+        left: 20px;
+        width: calc(100% - 40px);
+        background: $white;
+        border-radius: 8px;
+        padding: 24px 5%;
+    }
+
+    .asset {
+        height: calc(100% - 40px);
+        top: 20px;
+
+        .asset--title {
+            text-align: center;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            border-bottom: 1px solid $grey;
+
+            .close-btn {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                cursor: pointer;
+            }
+        }
+
+        .asset-item {
+            background: none;
+
+            &:hover {
+                background: $solitude
+            }
+        }
+    }
+}

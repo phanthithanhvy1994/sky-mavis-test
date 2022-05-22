@@ -1,0 +1,83 @@
+@import 'src/assets/scss/stylesConfig.scss';
+
+.main-page {
+    background: url(../../assets/Images/banner.png) no-repeat top 60px center;
+
+    .app-name {
+        width: 126px;
+        background: $information;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 6px 19px 6px 32px;
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: $blue;
+            border-radius: 25px;
+            top: 12px;
+            left: 12px;
+        }
+    }
+
+    .right {
+        text-align: right
+    }
+
+    .ui.secondary.menu {
+        text-align: center;
+
+        a {
+            display: inline-grid;
+            margin: 0 12px 17px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+            color: $black_russian;
+            pointer-events: none;
+
+            span {
+                width: 48px;
+                height: 48px;
+                border-radius: 8px;
+                background: $information;
+
+                img {
+                    margin: 8px auto;
+                }
+            }
+
+            &:before {
+                position: absolute;
+                content: '';
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: rgba(248, 249, 252, 0.5);
+            }
+
+            &.active {
+                pointer-events: initial;
+                background: none;
+            }
+        }
+    }
+
+    .asset-group {
+        p.title {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            padding-bottom: 12px;
+        }
+    }
+}

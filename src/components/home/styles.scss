@@ -1,0 +1,62 @@
+@import 'src/assets/scss/stylesConfig.scss';
+
+.home-page {
+    text-align: center;
+
+    .banner {
+        width: 100%;
+        margin-top: 62px;
+        margin-bottom: 13px;
+        background: url(../../assets/Images/banner.png) no-repeat center;
+
+        img {
+            padding-top: 34px;
+            padding-bottom: 11px
+        }
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 8px
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 24px;
+    }
+
+    .password {
+        .ui.input.password {
+            max-width: 336px;
+            margin: 0 auto 24px;
+            text-align: left;
+
+            &--label {
+                text-transform: uppercase;
+                font-weight: 700;
+                line-height: 16px;
+                font-size: 10px;
+                margin-bottom: 4px;
+            }
+
+            &--input {
+                position: relative;
+                margin-bottom: 24px;
+                width: 100%;
+
+                button {
+                    position: absolute;
+                    border: none;
+                    right: 0;
+                    top: 0;
+                    padding: 8px 13px;
+                    background: none;
+                }
+            }
+        }
+    }
+}
